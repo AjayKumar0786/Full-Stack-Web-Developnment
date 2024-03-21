@@ -1,0 +1,21 @@
+Go to Termainal and Run 
+
+1. npm install -D tailwindcss
+
+2. npx tailwindcss init
+
+3.Go to Config.js - content["*"]  add star.
+
+4.package.jason- in header setup -
+
+"scripts":{
+   "start": "vite"
+}
+
+5. create main.css file and past -
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+6. Index.html se link karana hai ab css file ko
+
